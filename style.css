@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.hero h1{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.signup_box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background:white;
+}
+.left_col{
+    padding: 50px;
+    background: #6b00d5;
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: white;
+
+}
+.right_col{
+    padding: 50px;
+    flex-basis: 50%;
+    flex-wrap: 1;
+}
+.input_box{
+    width: 100%;
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+::placeholder{
+    color: white;
+}
+input[type=checkbox]{
+    margin-top: 30px;
+
+}
+.left_col label{
+    font-size: 14px;
+}
+.left_col button{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_col button:hover{
+    font-weight: 500;
+     background: black;
+     color: white;
+}
+.left_col button span{
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.5s;
+}
+.left_col button:hover span{
+    width: 30px;
+}
+.right_col a{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    min-width: 250px;
+    color: white;
+    font-size: 14px;
+    padding: 15px 30px;
+    text-decoration: none;
+    background: #6b00d5;
+}
+.right_col a i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+#fb_link{
+    background: #1778f2;
+
+}
+#tw_link{
+    background: #1da1f2;
+    
+}
+#g_link{
+    background: #ea4335;
+    
+}
+.sign_msg{
+    margin-top: 30px;
+    color: white;
+}
+.sign_msg a{
+    color: #ea4335;
+    text-decoration: none;
+}
+
